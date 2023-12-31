@@ -5,7 +5,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [
-    require('preline/plugin'),
-  ],
+  plugins: [],
 }

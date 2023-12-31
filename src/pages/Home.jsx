@@ -1,17 +1,18 @@
 import React from 'react';
-import {SocialMedia, Intro} from "../components";
+import { SocialMedia, Intro, About, Experience, FeaturedProjects, Projects, Contact } from "../components";
 
 const Home = () => {
   return (
-    <>
-    
-    <SocialMedia />
-    <Intro />
-    <Intro />
-    <Intro />
+    <div>
+      <SocialMedia />
+      <Intro />
+      <About />
+      <Experience />
+      <FeaturedProjects />
+      <Projects />
+      <Contact />
+    </div>
+  );
+};
 
-    </>
-  )
-}
-
-export default Home
+export default Home;
