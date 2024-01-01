@@ -1,19 +1,14 @@
-import React from 'react'
-import { FaHtml5, FaCss3Alt, FaJava, FaPython, FaPhp, FaReact, FaNodeJs, FaMixcloud, FaGitAlt, FaGithub , FaDiceD20, FaWordpress, FaFigma, FaChrome} from "react-icons/fa";
+import React from 'react';
+import { FaHtml5, FaCss3Alt, FaJava, FaPython, FaPhp, FaReact, FaNodeJs, FaMixcloud, FaGitAlt, FaGithub, FaDiceD20, FaWordpress, FaFigma, FaChrome } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { BsFiletypeJson } from "react-icons/bs";
 import { TbTemplate } from "react-icons/tb";
-import { SiMysql, SiTailwindcss, SiJsonwebtokens, SiAdobexd, SiPostman } from "react-icons/si";
-// import { FaReact } from "react-icons/fa";
+import { SiMysql, SiTailwindcss, SiAdobexd, SiPostman } from "react-icons/si";
 import profile from "../assets/Profile.png";
 
 const About = () => {
   return (
-    <section
-      id="about-me"
-      aria-labelledby="about-me-title"
-      className="py-20 sm:py-32 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 relative"
-    >
+    <section id="about-me" aria-labelledby="about-me-title" className="py-20 sm:py-32 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 relative" >
       <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
         About Me
       </h2>
@@ -30,7 +25,7 @@ const About = () => {
               My goal is always to build applications that are scalable and efficient under the hood while also providing engaging, pixel-perfect user experiences.
             </p>
             <p className="mt-4 font-display text-xl tracking-tight text-blue-900">
-            Here are the technologies with which I've been working:
+              Here are the technologies with which I've been working:
             </p>
           </div>
           <div>
@@ -71,19 +66,12 @@ const About = () => {
               <span class="mx-2 my-2 space-x-1 min-w-24 flex justify-center items-center bg-white px-2 py-1 text-base rounded-md shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]"><TbTemplate className="text-black" /> <span>Wireframing</span></span>
             </div>
           </div>
-
         </div>
 
         <div className="lg:w-1/3 md:w-2/5 mt-8 lg:mt-0 flex justify-center">
-          <div
-            class="md:order-2 h-fit relative before:absolute before:inset-0 before:z-10 before:border before:rounded-xl before:transition before:hover:border-2 before:hover:border-blue-600 before:hover:shadow-lg"
-          >
+          <div class="md:order-2 h-fit relative before:absolute before:inset-0 before:z-10 before:border before:rounded-xl before:transition before:hover:border-2 before:hover:border-blue-600 before:hover:shadow-lg" >
             <div class="relative overflow-hidden w-full h-fit rounded-xl">
-              <img
-                className="object-center rounded-lg shadow-lg"
-                src={profile}
-                alt="About Me"
-              />
+              <img className="object-center rounded-lg shadow-lg" src={profile} alt="About Me" />
               <div class="absolute top-0 start-full -z-[1] w-60 h-20 bg-blue-100 blur-[100px] -translate-y-full -translate-x-1/2"></div>
               <div class="absolute top-0 start-full -z-[1] w-60 h-20 bg-purple-100 blur-[100px] -translate-y-full -translate-x-1/2"></div>
               <div class="absolute top-1/2 start-1/2 -z-[1] w-60 h-32 bg-purple-100 blur-[100px] -translate-y-1/2 -translate-x-1/2"></div>
@@ -96,9 +84,8 @@ const About = () => {
           </div>
         </div>
       </div >
-
     </section >
   )
 }
 
-export default About
+export default About;

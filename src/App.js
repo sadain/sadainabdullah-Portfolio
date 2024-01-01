@@ -1,12 +1,15 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import {MainRouter, ArchiveProjects, Home} from "./pages";
+import {
+  MainRouter, 
+  // ArchiveProjects, 
+  Home
+} from "./pages";
 
 function App() {
   return (
-    <Router>
-      
+    <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainRouter />} >
             <Route index element={<Home />} />
@@ -16,7 +19,7 @@ function App() {
             {/* <Route path="/contact" element={<Contact />} /> */}
           </Route>
         </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 

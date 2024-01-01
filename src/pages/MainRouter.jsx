@@ -5,15 +5,13 @@ import { Header, Footer } from "../components";
 const MainRouter = () => {
   return (
     <>
-
-    <Header />
-    <main className="flex-auto">
+      <Header />
+      <main className="flex-auto">
         <Outlet />
-    </main>
-    <Footer />
-    
+      </main>
+      <Footer />
     </>
   )
 }
 
-export default MainRouter
+export default MainRouter;

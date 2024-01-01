@@ -1,14 +1,13 @@
 import React from 'react';
 import { FiDownload } from 'react-icons/fi';
 import HeroImage from '../assets/Hero-image.jpg';
-// import Resume from '../assets/Sadain_Abdullah_N_Resume.pdf';
 
 const Intro = () => {
     return (
         <main className="flex-auto">
             <div className="relative py-20 sm:pb-24 sm:pt-36">
                 <div className="absolute inset-0 overflow-hidden bg-indigo-50 -bottom-14 -top-36">
-                    <img src={HeroImage} alt="" fetchpriority="high" width="918" height="1495" decoding="async" data-nimg="1" className="absolute top-0 left-0 translate-x-[-55%] translate-y-[-10%] -scale-x-100 sm:left-1/2 sm:translate-x-[-98%] sm:translate-y-[-6%] lg:translate-x-[-106%] xl:translate-x-[-122%]" style={{color:"transparent"}} />
+                    <img src={HeroImage} alt="" fetchpriority="high" width="918" height="1495" decoding="async" data-nimg="1" className="absolute top-0 left-0 translate-x-[-55%] translate-y-[-10%] -scale-x-100 sm:left-1/2 sm:translate-x-[-98%] sm:translate-y-[-6%] lg:translate-x-[-106%] xl:translate-x-[-122%]" style={{ color: "transparent" }} />
                     <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white"></div>
                     <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white"></div>
                 </div>
@@ -33,7 +32,6 @@ const Intro = () => {
                             <a className="mt-10 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-500 rounded-md p-px text-xs font-semibold leading-6  text-white inline-block" aria-label="View Full Résumé" href="mailto:nsasadain@gmail.com">
                                 <span className="absolute inset-0 overflow-hidden rounded-md">
                                     <span className="absolute inset-0 rounded-md bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-                                    {/* <span className="absolute inset-0 rounded-md bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(0,122,255,0.6)_0%,rgba(0,122,255,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" /> */}
                                 </span>
                                 <div className="relative flex space-x-2 items-center rounded-md text-base text-blue-600 bg-transparent py-2 px-4 ring-1 ring-white/10 max-sm:px-2 ">
                                     <span>Say Hello!</span>
@@ -47,7 +45,6 @@ const Intro = () => {
                                     <span className="relative inline-flex rounded-full h-3 w-3 bg-[#2563eb]"></span>
                                 </span>
                             </a>
-
                             <a href="/Sadain_Abdullah_N_Resume.pdf" className="mt-10 mx-4 px-8 py-2 rounded-md bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200 max-sm:px-4" target='_blank'>
                                 <div className="relative flex space-x-2 items-center z-10 text-white text-base">
                                     <span>Resume</span>
