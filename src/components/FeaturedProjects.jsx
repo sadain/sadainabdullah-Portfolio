@@ -9,7 +9,7 @@ const FeaturedProjects = () => {
     <div className='mx-auto relative min-h-full max-w-screen-xl px-6 font-sans md:px-12 lg:px-24'>
       <div id='projects' className='mx-auto py-10'>
         <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
-          <h2 class="mx-auto max-w-2xl lg:text-center md:text-center font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">Some Things I Have Built</h2>
+          <h2 className="mx-auto max-w-2xl lg:text-center md:text-center font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">Some Things I Have Built</h2>
         </div>
         <div className='w-full flex flex-col items-center justify-center gap-28 mt-20'>
           <div className='flex flex-col xl:flex-row gap-6'>
@@ -25,30 +25,30 @@ const FeaturedProjects = () => {
               <p className='lg:bg-[#eef2ff]/90 md:text-base text-sm lg:p-6 rounded-xl lg:text-right '>
                 I developed a comprehensive Inventory Management System using React.js, showcasing my proficiency in front-end development. With a focus on delivering an exceptional user experience, I implemented a polished UI design. My commitment to excellence is evident in the robust and efficient codebase, reflecting a high standard of coding practices.
               </p>
-              <ul class="lg:mt-2 flex flex-wrap lg:max-w-[30rem] lg:justify-end" aria-label="Technologies used">
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">React</div>
+              <ul className="lg:mt-2 flex flex-wrap lg:max-w-[30rem] lg:justify-end" aria-label="Technologies used">
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">React</div>
                 </li>
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">JavaScript</div>
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">JavaScript</div>
                 </li>
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">HTML</div>
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">HTML</div>
                 </li>
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">CSS(SCSS)</div>
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">CSS(SCSS)</div>
                 </li>
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">Tailwind CSS</div>
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">Tailwind CSS</div>
                 </li>
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">React Hooks Form</div>
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">React Hooks Form</div>
                 </li>
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">Tanstack Query </div>
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">Tanstack Query </div>
                 </li>
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">Rest API</div>
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">Rest API</div>
                 </li>
               </ul>
               <div className='text-2xl flex gap-3'>
@@ -75,30 +75,30 @@ const FeaturedProjects = () => {
               <p className='lg:bg-[#eef2ff]/90 md:text-base text-sm lg:p-6 rounded-xl xl:-mr-16'>
                 The Chatbot enables users to interact and receive answers to common banking questions, offering customer support. Capable of handling multiple inquiries simultaneously, it provides rapid responses to frequently asked queries and can be updated to cover new features or services introduced by the bank.
               </p>
-              <ul class="lg:mt-2 flex flex-wrap lg:max-w-[30rem]" aria-label="Technologies used">
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">Python</div>
+              <ul className="lg:mt-2 flex flex-wrap lg:max-w-[30rem]" aria-label="Technologies used">
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">Python</div>
                 </li>
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">Flask</div>
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">Flask</div>
                 </li>
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">HTML</div>
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">HTML</div>
                 </li>
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">CSS</div>
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">CSS</div>
                 </li>
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">JavaScript</div>
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">JavaScript</div>
                 </li>
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">IBM Cloud</div>
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">IBM Cloud</div>
                 </li>
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">IBM Watson Assistant</div>
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">IBM Watson Assistant</div>
                 </li>
-                <li class="mr-1.5 mt-2">
-                  <div class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">Testing</div>
+                <li className="mr-1.5 mt-2">
+                  <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">Testing</div>
                 </li>
               </ul>
               <div className='text-2xl flex gap-3'>
