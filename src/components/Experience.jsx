@@ -10,15 +10,15 @@ const Experience = () => {
         <div className="absolute bottom-0 lg:left-44 sm:left-20 flex h-8 items-end overflow-hidden"><div className="flex -mb-px h-[2px] w-80 -scale-x-100"><div className="w-full flex-none blur-sm [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div><div className="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div></div></div>
       </div>
 
-      <div className="absolute inset-0 overflow-hidden bg-indigo-50 -bottom-2 -top-10 align">
+      <div className="absolute inset-0 overflow-hidden bg-indigo-50 -bottom-10 lg:-bottom-2 md:-bottom-32 -top-10 align">
         <img alt="" fetchpriority="high" width="918" height="1495" decoding="async" data-nimg="1" className="absolute top-0 left-full -translate-x-1/2 sm:left-1/2 sm:translate-x-[-20%] sm:translate-y-[-15%] md:translate-x-0 lg:translate-x-[5%] lg:translate-y-[4%] xl:translate-x-[27%] xl:translate-y-[5%]" style={{ color: "transparent" }} src={HeroImage} />
         <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white"></div>
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white"></div>
       </div>
 
-      <div className="mx-auto relative min-h max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+      <div className="mx-auto relative min-h max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-0 lg:px-24 lg:py-0">
         <div className="lg:flex lg:justify-between lg:gap-4">
-          <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 lg:pb-0">
+          <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between md:py-12 lg:py-24 lg:pb-0">
             <div>
               <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
                 Where I’ve Worked
@@ -44,8 +44,8 @@ const Experience = () => {
             </div>
           </header>
 
-          <main id="content" className="pt-24 lg:w-1/2 lg:py-24 lg:pb-2">
-            <section id="experience" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Work experience">
+          <main id="content" className="pt-12 md:pt-2 lg:w-1/2 lg:py-24 lg:pb-2">
+            <section id="experience" className="mb-8 scroll-mt-16 md:mb-16 lg:mb-36 lg:scroll-mt-24" aria-label="Work experience">
               <div>
                 <ol className="group/list">
                   <li id="tflex" className="mb-12">

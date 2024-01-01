@@ -2,9 +2,9 @@ import React from 'react';
 
 const Education = () => {
   return (
-    <div className="mx-auto relative min-h max-w-screen-xl px-6 py-2 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+    <div className="mx-auto relative min-h max-w-screen-xl px-6 py-2 font-sans md:px-12 md:py-0 lg:px-24 lg:py-0">
       <div className="lg:flex lg:justify-between lg:gap-4">
-        <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-0">
+        <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between md:py-12 lg:py-0">
           <div>
             <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
               My Education
@@ -35,8 +35,8 @@ const Education = () => {
           </div>
         </header>
 
-        <main id="content" className="pt-24 lg:w-1/2 lg:py-24 lg:pt-0">
-          <section id="experience" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Work experience">
+        <main id="content" className="pt-12 md:pt-2 lg:w-1/2 lg:py-24 lg:pt-0">
+          <section id="experience" className="mb-8 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Work experience">
             <div>
               <ol className="group/list">
                 <li id="BachelorDegree" className="mb-12">

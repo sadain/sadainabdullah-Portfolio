@@ -8,7 +8,7 @@ import profile from "../assets/Profile.png";
 
 const About = () => {
   return (
-    <section id="about-me" aria-labelledby="about-me-title" className="py-20 sm:py-32 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 relative" >
+    <section id="about-me" aria-labelledby="about-me-title" className="md:py-20 py-10 mb-4 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 relative" >
       <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
         About Me
       </h2>
