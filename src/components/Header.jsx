@@ -30,7 +30,7 @@ const Header = () => {
   ];
 
   return (
-    <header className={`top-0 w-full z-40 ${isScrolled ? 'fixed backdrop-filter backdrop-blur-lg bg-white bg-opacity-70 shadow-md' : 'relative bg-transparent'} transition duration-300 ease-in-out`}>
+    <header className={`top-0 w-full z-40 ${isScrolled ? 'sticky backdrop-filter backdrop-blur-lg bg-white bg-opacity-70 shadow-md' : 'relative bg-transparent'} transition duration-300 ease-in-out`}>
       <div className="mx-auto max-w-screen-xl px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex items-center sm:justify-between sm:gap-4">
           <div className="flex items-center justify-between max-sm:hidden">
