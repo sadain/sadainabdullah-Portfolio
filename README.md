@@ -1,73 +1,67 @@
-# sadainabdullah.com
-My Personal Portfolio Website
+<!-- <div align="center">
+  <img alt="Logo" src="https://github.com/sadain/sadainabdullah-Portfolio/blob/4b16fd5e0d40c01ca6f63a740e9ea067c28e1c26/src/assets/Logo%20-%20Sadain.svg" width="100" />
+</div> -->
+<h1 align="center">
+  Sadain Abdullah
+</h1>
+<p align="center">
+  My Personal Portfolio Website <a href="https://sadainabdullah.netlify.app/" target="_blank">sadainabdullah.netlify.app</a> built with <a href="https://react.dev/" target="_blank">React JS</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+</p>
+<p align="center">
+  <a href="https://app.netlify.com/sites/sadainabdullah/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
+  </a>
+</p>
 
-# Getting Started with Create React App
+<!-- ![demo]() -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚨 Forking this repo (please read!)
 
-## Available Scripts
+I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
 
-In the project directory, you can run:
+Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [React docs](https://react.dev/).
 
-### `npm start`
+### TL;DR
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Yes, you can fork this repo. Please give me proper credit by linking back to [sadainabdullah.netlify.app](https://sadainabdullah.netlify.app/). Thanks!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Installation & Set Up
 
-### `npm test`
+1. Install the dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```sh
+   npm install
+   ```
 
-### `npm run build`
+<!-- 2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```sh
+   nvm install
+   ``` -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Start the development server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```sh
+   npm start
+   ```
 
-### `npm run eject`
+## 🚀 Building and Running for Production
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Generate a full static production build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```sh
+   npm run build
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎨 Color Reference
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Color          | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| Black          | ![#000000](https://via.placeholder.com/10/000000?text=+) `#000000` |
+| Blue           | ![#2563eb](https://via.placeholder.com/10/2563eb?text=+) `#2563eb` |
+| Dark Blue      | ![#1e3aa4](https://via.placeholder.com/10/1e3aa4?text=+) `#1e3aa4` |
+| Light Blue     | ![#7194e1](https://via.placeholder.com/10/7194e1?text=+) `#7194e1` |
+| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
+| Lightest Blue  | ![#eef2ff](https://via.placeholder.com/10/eef2ff?text=+) `#eef2ff` |
+| Lightest Sky   | ![#eff6fe](https://via.placeholder.com/10/eff6fe?text=+) `#eff6fe` |
+| White          | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
