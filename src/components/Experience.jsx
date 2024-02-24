@@ -51,11 +51,11 @@ const Experience = () => {
                   <li id="tflex" className="mb-12">
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="bg-white/20 absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-xl transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-transparent lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                      <header className="z-10 mb-2 mt-1 text-sm font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="OCT to Present">SEP — Present</header>
+                      <header className="z-10 mb-2 mt-1 text-sm font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="OCT to Present">JAN — Present</header>
                       <div className="z-10 sm:col-span-6">
                         <h3 className="font-medium leading-snug text-slate-200">
                           <div>
-                            <a className="inline-flex items-baseline font-medium leading-tight text-black hover:text-blue-600 focus-visible:text-blue-600 group/link text-base" href="https://tflex.tech/" target="_blank" rel="noreferrer noopener" aria-label="Lead Engineer at Upstatement (opens in a new tab)">
+                            <a className="inline-flex items-baseline font-medium leading-tight text-black hover:text-blue-600 focus-visible:text-blue-600 group/link text-base" href="https://tflex.tech/" target="_blank" rel="noreferrer noopener" aria-label="Software Engineer at TFLEX (opens in a new tab)">
                               <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded-xl md:-inset-x-6 md:-inset-y-4 lg:block lg:group-hover:shadow-md hover:border-2 hover:border-blue-600"></span>
                               <span>
                                 Software Engineer -
@@ -70,7 +70,7 @@ const Experience = () => {
                           </div>
                         </h3>
                         <span className="font-semibold tracking-wide text-slate-500">Founding Member</span>
-                        <p className="mt-2 text-base leading-normal">Deliver high-quality, robust production code for a diverse array of projects for clients including Mina Herbes, Tanza Tradings, Online Tutor Al-Qamar, Srikanth Academy, Charity Trust from US, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship.</p>
+                        <p className="mt-2 text-base leading-normal">Deliver high-quality, robust production code for a diverse array of projects for clients including Namma V2 Tea, Tanza Tradings, Online Tutor Al-Qamar, Srikanth Academy, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship.</p>
                         <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                           <li className="mr-1.5 mt-2">
                             <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">JavaScript</div>
@@ -88,10 +88,16 @@ const Experience = () => {
                             <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">Tailwind CSS</div>
                           </li>
                           <li className="mr-1.5 mt-2">
+                            <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">Java</div>
+                          </li>
+                          <li className="mr-1.5 mt-2">
+                            <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">PHP</div>
+                          </li>
+                          <li className="mr-1.5 mt-2">
                             <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">WordPress</div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">Java</div>
+                            <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-400 ">MySQL</div>
                           </li>
                         </ul>
                       </div>
@@ -100,14 +106,14 @@ const Experience = () => {
                   <li id="SafproTechnologySolutions" className="mb-12">
                     <div className="group  relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="bg-white/20 hover:bg-white/60 absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-xl transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-transparent lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                      <header className="z-10 mb-2 mt-1 text-sm font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="JAN to AUG 2023">JAN — AUG 2023</header>
+                      <header className="z-10 mb-2 mt-1 text-sm font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="JAN to AUG 2023">JAN — DEC 2023</header>
                       <div className="z-10 sm:col-span-6">
                         <h3 className="font-medium leading-snug text-slate-200">
                           <div>
-                            <a className="inline-flex items-baseline font-medium leading-tight text-black hover:text-blue-600 focus-visible:text-blue-600  group/link text-base" href="https://safprotech.com/" target="_blank" rel="noreferrer noopener" aria-label="Lead Engineer at Upstatement (opens in a new tab)">
+                            <a className="inline-flex items-baseline font-medium leading-tight text-black hover:text-blue-600 focus-visible:text-blue-600  group/link text-base" href="https://safprotech.com/" target="_blank" rel="noreferrer noopener" aria-label="Software Engineer at Safpro Technolnogy Solutions (opens in a new tab)">
                               <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded-xl md:-inset-x-6 md:-inset-y-4 lg:block lg:group-hover:shadow-md hover:border-2 hover:border-blue-600"></span>
                               <span>
-                                JR. Software Engineer -
+                                Software Engineer -
                                 <span className="inline-block">
                                   Safpro Technology Solutions
                                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
@@ -118,7 +124,7 @@ const Experience = () => {
                             </a>
                           </div>
                         </h3>
-                        <p className="mt-2 text-base leading-normal">Developed, maintained, and deployed production code for client websites, including Smashit, Taha USA, DTS Machinery, Alwaseeq, and more. Collaborated with designers and developers to ensure consistent and user-friendly experiences across web applications.</p>
+                        <p className="mt-2 text-base leading-normal">Developed, maintained, and deployed production code for client websites, including DTS Machinery, Smashit, Taha USA, wissenglanz, Alwaseeq, and more. Collaborated with designers and developers to ensure consistent and user-friendly experiences across web applications.</p>
                         {/* <ul className="mt-2 flex flex-wrap" aria-label="Related links">
                         <li className="mr-4">
                           <a className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-500 hover:text-blue-500 focus-visible:text-blue-500" href="https://link" target="_blank" rel="noreferrer noopener" aria-label="link name (opens in a new tab)">

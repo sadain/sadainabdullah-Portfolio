@@ -87,7 +87,7 @@ const Education = () => {
                         </div>
                       </h3>
                       <h3 className="font-semibold mt-2 tracking-wide text-black">12th - Higher Secondary School Certificate</h3>
-                      <h3 className="font-semibold mt-2 tracking-wide text-black">Percentage: 63.6%</h3>
+                      {/* <h3 className="font-semibold mt-2 tracking-wide text-black">Percentage: 63.6%</h3> */}
                       {/* <p className="mt-2 text-base leading-normal">Content</p> */}
                     </div>
                   </div>
@@ -113,7 +113,7 @@ const Education = () => {
                         </div>
                       </h3>
                       <h3 className="font-semibold mt-2 tracking-wide text-black">10th - Secondary School Leaving Certificate</h3>
-                      <h3 className="font-semibold mt-2 tracking-wide text-black">Percentage: 78.6%</h3>
+                      {/* <h3 className="font-semibold mt-2 tracking-wide text-black">Percentage: 78.6%</h3> */}
                       {/* <p className="mt-2 text-base leading-normal">Content</p> */}
                     </div>
                   </div>
