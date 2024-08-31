@@ -1,5 +1,7 @@
 #Custome Ignore
 .old.md
+.vscode
+./package-lock.json
 
 # Logs
 logs
