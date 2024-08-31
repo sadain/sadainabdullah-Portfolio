@@ -2,7 +2,7 @@ import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJava, FaPython, FaPhp, FaReact, FaNodeJs, FaMixcloud, FaGitAlt, FaGithub, FaDiceD20, FaWordpress, FaFigma, FaChrome, FaSass } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { BsFiletypeJson } from "react-icons/bs";
-import { TbArrowsTransferDown, TbShieldCode, TbTemplate, TbTransferVertical } from "react-icons/tb";
+import { TbArrowsTransferDown, TbTemplate, TbTransferVertical } from "react-icons/tb";
 import { SiMysql, SiTailwindcss, SiAdobexd, SiPostman, SiNextdotjs, SiThreedotjs, SiGodaddy, SiGooglecloud, SiIbmwatson, SiJsonwebtokens } from "react-icons/si";
 import profile from "../assets/Profile.png";
 
