@@ -120,7 +120,7 @@ const Education = () => {
                 </li>
               </ol>
               <div className="mt-12">
-                <a className="inline-flex items-center font-semibold leading-tight text-slate-500 group" aria-label="View Full Résumé" href="/Sadain_Abdullah_N_Resume.pdf" target="_blank" rel="noreferrer noopener">
+                <a className="inline-flex items-center font-semibold leading-tight text-slate-500 group" aria-label="View Full Résumé" href="/sadain_abdullah_resume.pdf" target="_blank" rel="noreferrer noopener">
                   <span>
                     <span className="whitespace-nowrap">
                       <span className="pb-px transition border-b border-transparent group-hover:border-blue-300 motion-reduce:transition-none">View Full Resume</span>

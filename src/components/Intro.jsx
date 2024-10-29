@@ -45,7 +45,7 @@ const Intro = () => {
                                     <span className="relative inline-flex rounded-full h-3 w-3 bg-[#2563eb]"></span>
                                 </span>
                             </a>
-                            <a href="/Sadain_Abdullah_N_Resume.pdf" className="mt-10 mx-4 px-8 py-2 rounded-md bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200 max-sm:px-4" target='_blank'>
+                            <a href="/sadain_abdullah_resume.pdf" className="mt-10 mx-4 px-8 py-2 rounded-md bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200 max-sm:px-4" target='_blank'>
                                 <div className="relative flex space-x-2 items-center z-10 text-white text-base">
                                     <span>Resume</span>
                                     <FiDownload />
